@@ -1,0 +1,13 @@
+PTH_THRML sum is 9.4787611806e-18 [W/(m^2.sr)]
+SOL_SCAT sum is 0.605931118 [W/(m^2.sr)]
+SING_SCAT sum is 0.529447243 [W/(m^2.sr)]
+TOTAL_RAD sum is 0.605931118 [W/(m^2.sr)]
+Note that multiple scatter contributes significantly to the total path radiance
+PTH_THRML integral is 9.478759e-18 [W/(m^2.sr)]
+SOL_SCAT integral is 6.059311e-01 [W/(m^2.sr)]
+SING_SCAT integral is 5.294472e-01 [W/(m^2.sr)]
+TOTAL_RAD integral is 6.059311e-01 [W/(m^2.sr)]
+Note that multiple scatter contributes significantly to total path radiance
+
+
+rymodtran is done!

@@ -1,0 +1,324 @@
+
+---------------------Spectrals:
+ID1
+ ID1-desc: const value
+ ID1-value (subsampled.T): 3.0000e-01
+
+ID1*1.67
+ ID1*1.67-desc: const value*1.67
+ ID1*1.67-value (subsampled.T): 5.0100e-01
+
+ID1**3
+ ID1**3-desc: const value**3
+ ID1**3-value (subsampled.T): 2.7000e-02
+
+ID1
+ ID1-desc: spec value
+ ID1-value (subsampled.T): [[ 0.     0.809  0.989  0.   ]]
+ ID1-wl (subsampled.T): [[ 4.7     4.742   4.784   4.8239]]
+ ID1-wn (subsampled.T): [[ 2127.65957447  2108.81484606  2090.30100334  2073.01146375]]
+
+ID1*1.67
+ ID1*1.67-desc: spec value*1.67
+ ID1*1.67-value (subsampled.T): [[ 0.       1.35103  1.65163  0.     ]]
+ ID1*1.67-wl (subsampled.T): [[ 4.7     4.742   4.784   4.8239]]
+ ID1*1.67-wn (subsampled.T): [[ 2127.65957447  2108.81484606  2090.30100334  2073.01146375]]
+
+ID1**3
+ ID1**3-desc: spec value**3
+ ID1**3-value (subsampled.T): [[ 0.          0.52947513  0.96736167  0.        ]]
+ ID1**3-wl (subsampled.T): [[ 4.7     4.742   4.784   4.8239]]
+ ID1**3-wn (subsampled.T): [[ 2127.65957447  2108.81484606  2090.30100334  2073.01146375]]
+
+ID1*ID1
+ ID1*ID1-desc: const value*const value
+ ID1*ID1-value (subsampled.T): 9.0000e-02
+
+ID1*ID1
+ ID1*ID1-desc: const value*spec value
+ ID1*ID1-value (subsampled.T): [[ 0.      0.2427  0.2967  0.    ]]
+ ID1*ID1-wl (subsampled.T): [[ 4.7     4.742   4.784   4.8239]]
+ ID1*ID1-wn (subsampled.T): [[ 2127.65957447  2108.81484606  2090.30100334  2073.01146375]]
+
+ID1*ID1
+ ID1*ID1-desc: spec value*const value
+ ID1*ID1-value (subsampled.T): [[ 0.      0.2427  0.2967  0.    ]]
+ ID1*ID1-wl (subsampled.T): [[ 4.7     4.742   4.784   4.8239]]
+ ID1*ID1-wn (subsampled.T): [[ 2127.65957447  2108.81484606  2090.30100334  2073.01146375]]
+
+ID1*ID1
+ ID1*ID1-desc: spec value*spec value
+ ID1*ID1-value (subsampled.T): [[ 0.          0.94503573  0.60943848  0.        ]]
+ ID1*ID1-wl (subsampled.T): [[ 4.8239      4.78117461  4.73919941  4.7       ]]
+ ID1*ID1-wn (subsampled.T): [[ 2073.01146375  2091.53624705  2110.06103034  2127.65957447]]
+
+
+---------------------Atmos:
+ID: tape7-02-1
+desc: tape7-02-1 raw data input
+tape7-02-1-atco
+ tape7-02-1-atco-desc: tape7-02-1 raw data input
+ tape7-02-1-atco-value (subsampled.T): [[  4.71536200e-05   1.30242673e-04   4.95859523e-05   1.86192981e-04]]
+ tape7-02-1-atco-wl (subsampled.T): [[ 4.87804878  4.83792937  4.79846449  4.76190476]]
+ tape7-02-1-atco-wn (subsampled.T): [[ 2050.  2067.  2084.  2100.]]
+
+tape7-02-1-prad
+ tape7-02-1-prad-desc: tape7-02-1 raw data input
+ tape7-02-1-prad-value (subsampled.T): [[ 0.00226852  0.00212766  0.00199506  0.00187757]]
+ tape7-02-1-prad-wl (subsampled.T): [[ 4.87804878  4.83792937  4.79846449  4.76190476]]
+ tape7-02-1-prad-wn (subsampled.T): [[ 2050.  2067.  2084.  2100.]]
+
+
+ID: tape7-02-2
+desc: tape7-02-2 normalised input
+tape7-02-2-atco
+ tape7-02-2-atco-desc: tape7-02-2 normalised input
+ tape7-02-2-atco-value (subsampled.T): [[  4.71536200e-05   1.30242673e-04   4.95859523e-05   1.86192981e-04]]
+ tape7-02-2-atco-wl (subsampled.T): [[ 4.87804878  4.83792937  4.79846449  4.76190476]]
+ tape7-02-2-atco-wn (subsampled.T): [[ 2050.  2067.  2084.  2100.]]
+
+tape7-02-2-prad
+ tape7-02-2-prad-desc: tape7-02-2 normalised input
+ tape7-02-2-prad-value (subsampled.T): [[ 0.00226852  0.00212766  0.00199506  0.00187757]]
+ tape7-02-2-prad-wl (subsampled.T): [[ 4.87804878  4.83792937  4.79846449  4.76190476]]
+ tape7-02-2-prad-wn (subsampled.T): [[ 2050.  2067.  2084.  2100.]]
+
+
+ID: tape7-02-2
+desc: tape7-02-2 normalised input
+tape7-02-2-atco
+ tape7-02-2-atco-desc: tape7-02-2 normalised input
+ tape7-02-2-atco-wl (subsampled.T): [[ 4.87804878  4.83792937  4.79846449  4.76190476]]
+ tape7-02-2-atco-wn (subsampled.T): [[ 2050.  2067.  2084.  2100.]]
+
+tape7-02-2-prad
+ tape7-02-2-prad-desc: tape7-02-2 normalised input
+ tape7-02-2-prad-value (subsampled.T): [[ 0.00226852  0.00212766  0.00199506  0.00187757]]
+ tape7-02-2-prad-wl (subsampled.T): [[ 4.87804878  4.83792937  4.79846449  4.76190476]]
+ tape7-02-2-prad-wn (subsampled.T): [[ 2050.  2067.  2084.  2100.]]
+
+
+ID: tape7-02-2
+desc: tape7-02-2 normalised input
+tape7-02-2-atco
+ tape7-02-2-atco-desc: tape7-02-2 normalised input
+ tape7-02-2-atco-value (subsampled.T): [[  4.71536200e-05   1.30242673e-04   4.95859523e-05   1.86192981e-04]]
+ tape7-02-2-atco-wl (subsampled.T): [[ 4.87804878  4.83792937  4.79846449  4.76190476]]
+ tape7-02-2-atco-wn (subsampled.T): [[ 2050.  2067.  2084.  2100.]]
+
+tape7-02-2-prad
+ tape7-02-2-prad-desc: tape7-02-2 normalised input
+ tape7-02-2-prad-wl (subsampled.T): [[ 4.87804878  4.83792937  4.79846449  4.76190476]]
+ tape7-02-2-prad-wn (subsampled.T): [[ 2050.  2067.  2084.  2100.]]
+
+
+distance=1000 m, tran=[[ 0.95394084  0.87788237  0.95162336]]
+distance=2000 m, tran=[[ 0.91000313  0.77067745  0.90558702]]
+distances=[1000 2000] m, tran=[[ 0.95394084  0.87788237  0.95162336]
+ [ 0.91000313  0.77067745  0.90558702]]
+distances=[1000 2000] m, atco=[[  4.71536200e-05   1.30242673e-04   4.95859523e-05]
+ [  4.71536200e-05   1.30242673e-04   4.95859523e-05]]
+
+---------------------Sensors:
+Sensor ID: S0
+desc: Sensor one
+fno: 3.200
+detarea: 1.000e-10
+inttime: 0.010000
+pfrac: 0.400
+S0-tauOpt
+ S0-tauOpt-desc: Sensor one-tauOpt
+ S0-tauOpt-value (subsampled.T): 5.0000e-01
+
+S0-quantEff
+ S0-quantEff-desc: Sensor one-quantEff
+ S0-quantEff-value (subsampled.T): 6.0000e-01
+
+
+Sensor ID: S1
+desc: Sensor one
+fno: 3.200
+detarea: 1.000e-10
+inttime: 0.010000
+pfrac: 0.400
+S1
+ S1-desc: 
+ S1-value (subsampled.T): 5.0000e-01
+ S1-wl (subsampled.T): [[ 4.3         4.52105263  4.74210526  4.96315789  5.        ]]
+ S1-wn (subsampled.T): [[ 2325.58139535  2211.87427241  2108.76803552  2014.84623542  2000.        ]]
+
+S1-quantEff
+ S1-quantEff-desc: Sensor one-quantEff
+ S1-quantEff-value (subsampled.T): 6.0000e-01
+
+
+Sensor ID: S2
+desc: Sensor two
+fno: 4.000
+detarea: 2.250e-10
+inttime: 0.020000
+pfrac: 1.000
+S2
+ S2-desc: MWIR transmittance
+ S2-value (subsampled.T): [[ 0.     0.809  0.989  0.   ]]
+ S2-wl (subsampled.T): [[ 4.7     4.742   4.784   4.8239]]
+ S2-wn (subsampled.T): [[ 2127.65957447  2108.81484606  2090.30100334  2073.01146375]]
+
+S2
+ S2-desc: MWIR transmittance
+ S2-value (subsampled.T): [[ 0.     0.809  0.989  0.   ]]
+ S2-wl (subsampled.T): [[ 4.7     4.742   4.784   4.8239]]
+ S2-wn (subsampled.T): [[ 2127.65957447  2108.81484606  2090.30100334  2073.01146375]]
+
+
+
+---------------------Sources:
+Sensor ID: Rad-MWIR
+desc: Self emitted
+tmprt: [[300]]
+cosTarg: 1
+scale: 1
+Rad-MWIR-emis
+ Rad-MWIR-emis-desc: selfemit-emis
+ Rad-MWIR-emis-value (subsampled.T): [[ 1.  1.  1.  1.  1.]]
+ Rad-MWIR-emis-wl (subsampled.T): [[ 3.  4.  5.  6.  6.]]
+ Rad-MWIR-emis-wn (subsampled.T): [[ 3333.33333333  2500.          2000.          1666.66666667
+   1666.66666667]]
+
+Rad-MWIR-refl
+ Rad-MWIR-refl-desc: Self emitted-refl
+ Rad-MWIR-refl-value (subsampled.T): 1.0000e+00
+
+Rad-MWIR-taumed
+ Rad-MWIR-taumed-desc: Self emitted-taumed
+ Rad-MWIR-taumed-value (subsampled.T): 1.0000e+00
+
+
+Sensor ID: refl-MWIR
+desc: Reflected sunlight
+tmprt: [[6000]]
+cosTarg: 1.0
+scale: 2.17e-05
+refl-MWIR-emis
+ refl-MWIR-emis-desc: reflsun-emis
+ refl-MWIR-emis-value (subsampled.T): [[ 1.  1.  1.  1.  1.]]
+ refl-MWIR-emis-wl (subsampled.T): [[ 3.  4.  5.  6.  6.]]
+ refl-MWIR-emis-wn (subsampled.T): [[ 3333.33333333  2500.          2000.          1666.66666667
+   1666.66666667]]
+
+refl-MWIR-refl
+ refl-MWIR-refl-desc: Reflected sunlight-refl
+ refl-MWIR-refl-value (subsampled.T): 4.0000e-01
+
+refl-MWIR-taumed
+ refl-MWIR-taumed-desc: Reflected sunlight-taumed
+ refl-MWIR-taumed-value (subsampled.T): 5.0000e-01
+
+
+For a laser pulse with width=1.000e-07, a FAR=1.500e+01 and Pd=9.990e-01,
+the Threshold to Noise ratio must be 4.933e+00
+and the Signal to Noise ratio must be 8.023e+00
+ 
+The first case should give an incorrect warning:
+
+E=1.000e-100: Range equation solver: at range -2.085e+04 the irradiance is 2.489e-08, error is 2.489e+92 - Check maximum range in lookup table
+
+E=1.000e-07: Range equation solver: at range 1.477e+04 the irradiance is 1.000e-07, error is 8.034e-14 - 
+
+E=1.000e-05: Range equation solver: at range 3.452e+03 the irradiance is 1.000e-05, error is 1.237e-14 - 
+
+E=1.000e+00: Range equation solver: at range 1.413e+01 the irradiance is 1.000e+00, error is 5.551e-15 - 
+ 
+Input spectral vectors:
+[   0.1    1.    10.   100. ]
+[ 100000.   10000.    1000.     100.]
+[  2.99792458e+15   2.99792458e+14   2.99792458e+13   2.99792458e+12]
+all following six statements should print unity vectors:
+[ 1.  1.  1.  1.]
+[ 1.  1.  1.  1.]
+[ 1.  1.  1.  1.]
+[ 1.  1.  1.  1.]
+[ 1.  1.  1.  1.]
+[ 1.  1.  1.  1.]
+test illegal input type should have shape (0,0)
+(0, 0)
+(0, 0)
+(0, 0)
+all following eight statements should print (close to) unity vectors:
+exitance converted: wf against calculation
+[[  1.00000000e+00   1.72494851e+53   9.50720426e+55   1.97558523e+54]
+ [  5.79727449e-54   1.00000000e+00   5.51158727e+02   1.14530098e+01]
+ [  1.05183393e-56   1.81435937e-03   1.00000000e+00   2.07798757e-02]
+ [  5.06179124e-55   8.73132927e-02   4.81234833e+01   1.00000000e+00]]
+exitance converted: wf->fn against calculation
+[[  1.00000000e+00   1.72494851e+53   9.50720426e+55   1.97558523e+54]
+ [  5.79727449e-54   1.00000000e+00   5.51158727e+02   1.14530098e+01]
+ [  1.05183393e-56   1.81435937e-03   1.00000000e+00   2.07798757e-02]
+ [  5.06179124e-55   8.73132927e-02   4.81234833e+01   1.00000000e+00]]
+exitance converted: wf->fn->nw against original
+[[  1.00000000e+00   1.72494851e+51   9.50720426e+51   1.97558523e+48]
+ [  5.79727449e-52   1.00000000e+00   5.51158727e+00   1.14530098e-03]
+ [  1.05183393e-52   1.81435937e-01   1.00000000e+00   2.07798757e-04]
+ [  5.06179124e-49   8.73132927e+02   4.81234833e+03   1.00000000e+00]]
+spectral variable converted: wf->fn->nw against original
+[ 1.  1.  1.  1.]
+exitance converted: wf against calculation
+[[  1.00000000e+00   1.72494851e+53   9.50720426e+55   1.97558523e+54]
+ [  5.79727449e-54   1.00000000e+00   5.51158727e+02   1.14530098e+01]
+ [  1.05183393e-56   1.81435937e-03   1.00000000e+00   2.07798757e-02]
+ [  5.06179124e-55   8.73132927e-02   4.81234833e+01   1.00000000e+00]]
+exitance converted: wf->fn against calculation
+[[  1.00000000e+00   1.72494851e+53   9.50720426e+55   1.97558523e+54]
+ [  5.79727449e-54   1.00000000e+00   5.51158727e+02   1.14530098e+01]
+ [  1.05183393e-56   1.81435937e-03   1.00000000e+00   2.07798757e-02]
+ [  5.06179124e-55   8.73132927e-02   4.81234833e+01   1.00000000e+00]]
+exitance converted: wn->nf->fw against original
+[[  1.00000000e+00   1.72494851e+51   9.50720426e+51   1.97558523e+48]
+ [  5.79727449e-52   1.00000000e+00   5.51158727e+00   1.14530098e-03]
+ [  1.05183393e-52   1.81435937e-01   1.00000000e+00   2.07798757e-04]
+ [  5.06179124e-49   8.73132927e+02   4.81234833e+03   1.00000000e+00]]
+spectral variable converted: wn->nf->fw against original
+[ 1.  1.  1.  1.]
+Effective responsivity 5.730e-01 of detector with parameters (0.5, 5) and source temperature 5.900e+03 K
+Effective responsivity 4.644e-01 of detector with parameters (1, 10) and source temperature 5.900e+03 K
+Effective responsivity 4.938e-01 of detector with parameters (1, 20) and source temperature 5.900e+03 K
+Effective responsivity 5.028e-01 of detector with parameters (1, 30) and source temperature 5.900e+03 K
+Effective responsivity 5.187e-01 of detector with parameters (1, 1000) and source temperature 5.900e+03 K
+Effective responsivity 2.924e-01 of detector with parameters (2, 20) and source temperature 5.900e+03 K
+ 
+        deg C          Testvalue           Fn value       \% Error
+[[  5.00000000e+01   8.27800000e+01   8.28288052e+01  -5.89229459e-02]
+ [  4.50000000e+01   6.52500000e+01   6.53105744e+01  -9.27481918e-02]
+ [  4.00000000e+01   5.09800000e+01   5.10475988e+01  -1.32422991e-01]
+ [  3.50000000e+01   3.94700000e+01   3.95318519e+01  -1.56460806e-01]
+ [  3.00000000e+01   3.02600000e+01   3.03161305e+01  -1.85150640e-01]
+ [  2.50000000e+01   2.29700000e+01   2.30097997e+01  -1.72968594e-01]
+ [  2.00000000e+01   1.72400000e+01   1.72744162e+01  -1.99232035e-01]
+ [  1.50000000e+01   1.28000000e+01   1.28192871e+01  -1.50453884e-01]
+ [  1.00000000e+01   9.38000000e+00   9.39702200e+00  -1.81142459e-01]
+ [  5.00000000e+00   6.79000000e+00   6.79913283e+00  -1.34323439e-01]
+ [  0.00000000e+00   4.85000000e+00   4.85173751e+00  -3.58120391e-02]
+ [ -5.00000000e+00   3.41000000e+00   3.41141647e+00  -4.15215865e-02]
+ [ -1.00000000e+01   2.36000000e+00   2.36126844e+00  -5.37186742e-02]
+ [ -1.50000000e+01   1.61000000e+00   1.60720482e+00   1.73915730e-01]
+ [ -2.00000000e+01   1.08000000e+00   1.07451558e+00   5.10408511e-01]
+ [ -2.50000000e+01   7.10000000e-01   7.04731527e-01   7.47585870e-01]]
+US-Std 15C 46 RH has 5.897e+00 g/m3
+Highest recorded absolute humidity was 3.752e+01, dew point 3.400e+01 deg C
+\si{\micro} renders in LaTeX as an upright symbol
+\si{\micro} renders in LaTeX as an upright symbol
+$\mu$ renders in LaTeX as an italic/slanted symbol
+Circ area is 3.3333e-01, should be 3.4907e-01
+Rect area is 4.444e-01, should be 4.444e-01
+Poisson for a mean value of zero is not defined and should give a zero
+lam=0.000e+00 mean=0.000e+00 var=0.000e+00 err-mean=nan err-var=nan
+lam=1.000e+01 mean=1.000e+01 var=9.998e+00 err-mean=-3.550e-04 err-var=2.123e-04
+lam=9.950e+02 mean=9.950e+02 var=9.969e+02 err-mean=2.014e-05 err-var=-1.900e-03
+lam=9.990e+02 mean=9.990e+02 var=1.002e+03 err-mean=1.248e-05 err-var=-2.748e-03
+lam=1.000e+03 mean=1.000e+03 var=1.003e+03 err-mean=1.042e-05 err-var=-2.872e-03
+lam=1.001e+03 mean=1.001e+03 var=9.957e+02 err-mean=-4.983e-05 err-var=5.314e-03
+lam=1.005e+03 mean=1.005e+03 var=9.997e+02 err-mean=-4.974e-05 err-var=5.314e-03
+lam=2.000e+04 mean=2.000e+04 var=1.989e+04 err-mean=-1.115e-05 err-var=5.314e-03
+
+
+module ryutils done!

@@ -1,0 +1,12 @@
+
+100 Frames read from data/PyradiSampleMWIR.ptw
+
+Image average S       :   6269.154 
+Total system noise    :     49.338 
+
+Fixed/spatial noise  | Temporal noise      | Variation effect
+---------------------|---------------------|-----------------
+Nh    :      5.396   | Nth   :      0.430  | Column 
+Nv    :     45.784   | Ntv   :      1.994  | Row 
+Nvh   :     17.126   | Ntvh  :      3.381  | Pixel 
+                     | Nt    :      0.243  | Frame 

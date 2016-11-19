@@ -1,0 +1,7 @@
+\begin{figure}[tb]
+\centering
+\includegraphics[width=0.75\textwidth,height=1\textheight,keepaspectratio]{picture.eps}
+\caption{This is the caption. \label{fig:picture.eps}}
+\end{figure}
+
+

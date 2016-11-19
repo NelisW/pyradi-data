@@ -1,0 +1,131 @@
+PAOutput.hdf5
+Image file name             : image-Disk-256-256.hdf5
+Image name                  : Disk-1
+Input image type            : Arbitrary units
+Sensor type                 : CCD 
+Pixel pitch                 : [  5.00000000e-06   5.00000000e-06] m
+Image size diagonal         : 1.810e-03 m
+Image size pixels           : [256 256] 
+Fill factor                 : 1.0
+Full well electrons         : 20000.0 e
+Integration time            : 0.01 s
+Wavelength                  : 5.5e-07 m
+Operating temperature       : 300.0 K
+Max equivalent input signal : 1e+16 
+Min equivalent input signal : 0.0 
+EquivalentSignal type       : Arbitrary units 
+PhotonRateIrradianceNoNoise : q/(m2.s) mean=2.59307e+15, var=1.11179e+31
+SignalPhotonRateIrradiance  : q/(m2.s) mean=2.59307e+15, var=1.11179e+31
+SignalPhotonsNU             : q/(m2.s) mean=2.59302e+15, var=1.11189e+31
+signalLightNoShotNoise      : e mean=5.18600e+02, var=4.44760e+05
+signalLight                 : e mean=5.18682e+02, var=4.45500e+05
+signalDarkNoNoise           : e mean=1.56181e+06, var=0.00000e+00
+signalDark                  : e mean=4.17074e+06, var=1.18972e+13
+SignalElectrons             : e mean=4.17126e+06, var=1.18972e+13
+source_follower_noise       : v mean=1.33828e-07, var=9.22708e-10
+SignalVoltage               : v mean=3.00000e+00, var=0.00000e+00
+SignalDN                    : DN mean=4.09600e+03, var=0.00000e+00
+ADC gain                    : DN mean=4.09620e+04, var=0.00000e+00
+ADC                         : DN/v bits=12.0 offset=0.0 DN
+Dark current density        : 1.0  A/m2
+Dark current coeff ca       : 431000.0  (A)
+Dark current coeff ed       : 2.0  (A)
+Quantum external efficiency : 0.8 
+Quantum yield               : 1.0 
+Sense node gain             : 5e-06 v/e
+Sense reset Vref            : 3.1 v
+Source follower gain        : 1.0 
+Dark offset model           : Janesick-Gaussian
+Dark offset spread          : 0.0005 e
+Dark response model         : LogNormal
+Dark response seed          : 362436128
+Dark response spread        : 0.4 
+Dark response neg lim flag  : True
+Detector response mode      : Janesick-Gaussian
+Detector response seed      : 362436069
+Detector response spread    : 0.01
+Material Eg 0 K             : 1.16600 eV
+Material Eg                 : 1.11312 eV
+Material alpha              : 0.00055  
+Material beta               : 636.0  
+Sense node reset noise factr: 0.8  
+Sense node reset kTC sigma  : 0.0 v
+Sense node capacitance      : 3.20435e+01 fF
+k1 constant, Csn =  k1/V    : 1.0909e-14 
+Sense node signal full well : 0.1 V
+Sense node signal minimum   : 5e-06 V
+Sense node reset noise      : True 
+CDS gain                    : 1.0 
+CDS sample-to-sampling time : 1e-06 s
+Delta induced modulation    : 1e-08 
+Data clock speed            : 20000000.0 Hz
+Frequency sampling delta    : 10000.0 Hz
+White noise density         : 1.5e-08 V/rtHz
+Flicker corner              : 1000000.0 Hz
+Source follower sigma       : v mean=3.04649e-05, var=0.00000e+00
+- - - - - - - - - - - - - - - - - - - - 
+PSOutput.hdf5
+Image file name             : image-Disk-256-256.hdf5
+Image name                  : Disk-1
+Input image type            : Arbitrary units
+Sensor type                 : CCD 
+Pixel pitch                 : [  5.00000000e-06   5.00000000e-06] m
+Image size diagonal         : 1.810e-03 m
+Image size pixels           : [256 256] 
+Fill factor                 : 1.0
+Full well electrons         : 20000.0 e
+Integration time            : 0.01 s
+Wavelength                  : 5.5e-07 m
+Operating temperature       : 300.0 K
+Max equivalent input signal : 1e+16 
+Min equivalent input signal : 0.0 
+EquivalentSignal type       : Arbitrary units 
+PhotonRateIrradianceNoNoise : q/(m2.s) mean=2.59307e+15, var=1.11179e+31
+SignalPhotonRateIrradiance  : q/(m2.s) mean=2.59307e+15, var=1.11179e+31
+SignalPhotonsNU             : q/(m2.s) mean=2.59302e+15, var=1.11189e+31
+signalLightNoShotNoise      : e mean=5.18600e+02, var=4.44760e+05
+signalLight                 : e mean=5.18682e+02, var=4.45500e+05
+signalDarkNoNoise           : e mean=1.56181e+06, var=0.00000e+00
+signalDark                  : e mean=1.57007e+06, var=2.12605e+11
+SignalElectrons             : e mean=1.57059e+06, var=2.12606e+11
+source_follower_noise       : v mean=0.00000e+00, var=0.00000e+00
+SignalVoltage               : v mean=3.00000e+00, var=0.00000e+00
+SignalDN                    : DN mean=4.09600e+03, var=0.00000e+00
+ADC gain                    : DN mean=4.09620e+04, var=0.00000e+00
+ADC                         : DN/v bits=12.0 offset=0.0 DN
+Dark current density        : 1.0  A/m2
+Dark current coeff ca       : 431000.0  (A)
+Dark current coeff ed       : 2.0  (A)
+Quantum external efficiency : 0.8 
+Quantum yield               : 1.0 
+Sense node gain             : 5e-06 v/e
+Sense reset Vref            : 3.1 v
+Source follower gain        : 1.0 
+Dark offset model           : Janesick-Gaussian
+Dark offset spread          : 0.0005 e
+Dark response model         : Janesick-Gaussian
+Dark response seed          : 362436128
+Dark response spread        : 0.3 
+Dark response neg lim flag  : True
+Detector response mode      : Janesick-Gaussian
+Detector response seed      : 362436069
+Detector response spread    : 0.01
+Material Eg 0 K             : 1.16600 eV
+Material Eg                 : 1.11312 eV
+Material alpha              : 0.00055  
+Material beta               : 636.0  
+Sense node reset noise factr: 0.8  
+Sense node reset kTC sigma  : 0.0 v
+Sense node capacitance      : 3.20435e+01 fF
+k1 constant, Csn =  k1/V    : 1.0909e-14 
+Sense node signal full well : 0.1 V
+Sense node signal minimum   : 5e-06 V
+Sense node reset noise      : True 
+CDS gain                    : 1.0 
+CDS sample-to-sampling time : 0 s
+Delta induced modulation    : 1e-08 
+Data clock speed            : 20000000.0 Hz
+Frequency sampling delta    : 10000.0 Hz
+White noise density         : 1.5e-08 V/rtHz
+Flicker corner              : 1000000.0 Hz
+Source follower sigma       : v mean=0.00000e+00, var=0.00000e+00

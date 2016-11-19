@@ -1,0 +1,72 @@
+Deep twilight: [1.08, 10000, 0.8]
+Full moon: [0.108, 4150, 0.6]
+Full sky light: [10752, 12000, 1.0]
+Overcast day: [1075, 6000, 1.0]
+Overcast night: [0.0001, 5000, 0.0]
+Quarter moon: [0.0108, 4150, 0.4]
+Star light: [0.0011, 5000, 0.2]
+Sun light: [107527, 5700, 1.0]
+Twilight: [10.8, 10000, 1.0]
+Very dark day: [107, 7000, 1.0]
+                Irradiance-lm/m2  ColourTemp  FracPhotop
+Overcast night            0.0001      5000.0         0.0
+Star light                0.0011      5000.0         0.2
+Quarter moon              0.0108      4150.0         0.4
+Full moon                 0.1080      4150.0         0.6
+Deep twilight             1.0800     10000.0         0.8
+Twilight                 10.8000     10000.0         1.0
+Very dark day           107.0000      7000.0         1.0
+Overcast day           1075.0000      6000.0         1.0
+Full sky light        10752.0000     12000.0         1.0
+Sun light            107527.0000      5700.0         1.0
+                ColourTemp  FracPhotop  Irradiance-lm/m2  \
+Overcast night      5000.0         0.0            0.0001   
+Star light          5000.0         0.2            0.0011   
+Quarter moon        4150.0         0.4            0.0108   
+Full moon           4150.0         0.6            0.1080   
+Deep twilight      10000.0         0.8            1.0800   
+Twilight           10000.0         1.0           10.8000   
+Very dark day       7000.0         1.0          107.0000   
+Overcast day        6000.0         1.0         1075.0000   
+Full sky light     12000.0         1.0        10752.0000   
+Sun light           5700.0         1.0       107527.0000   
+
+                Radiance-q/(s.m2.sr)-LWIR  Radiance-q/(s.m2.sr)-MWIR  \
+Overcast night               1.098964e+10               4.126570e+10   
+Star light                   1.352951e+11               5.080282e+11   
+Quarter moon                 3.790946e+12               1.362625e+13   
+Full moon                    4.296000e+13               1.544163e+14   
+Deep twilight                2.807479e+13               1.166828e+14   
+Twilight                     3.819177e+14               1.587304e+15   
+Very dark day                8.245559e+15               3.284063e+16   
+Overcast day                 1.306910e+17               5.080461e+17   
+Full sky light               2.859098e+17               1.207679e+18   
+Sun light                    1.551574e+19               5.977276e+19   
+
+                Radiance-q/(s.m2.sr)-NIR  Radiance-q/(s.m2.sr)-SWIR  \
+Overcast night              1.320815e+11               2.811788e+11   
+Star light                  1.626075e+12               3.461634e+12   
+Quarter moon                2.676633e+13               7.321109e+13   
+Full moon                   3.033231e+14               8.296474e+14   
+Deep twilight               1.107208e+15               1.361028e+15   
+Twilight                    1.506199e+16               1.851486e+16   
+Very dark day               1.998632e+17               3.068274e+17   
+Overcast day                2.380423e+18               4.172085e+18   
+Full sky light              1.347956e+19               1.529608e+19   
+Sun light                   2.537434e+20               4.676317e+20   
+
+                Radiance-q/(s.m2.sr)-VIS             k  
+Overcast night              1.446768e+11  1.613462e-14  
+Star light                  1.781137e+12  1.986357e-13  
+Quarter moon                2.198762e+13  6.956533e-12  
+Full moon                   2.491695e+14  7.883327e-11  
+Deep twilight               2.488231e+15  1.887297e-11  
+Twilight                    3.384886e+16  2.567401e-10  
+Very dark day               3.306346e+17  8.220586e-09  
+Overcast day                3.313916e+18  1.552340e-07  
+Full sky light              3.397997e+19  1.578701e-07  
+Sun light                   3.315415e+20  1.955067e-05  
+
+---------------------
+
+module rypflux done!

@@ -1,0 +1,154 @@
+h = 6.62607004000000e-34 Js
+c = 2.99792458000000e+08 m/s
+k = 1.38064852000000e-23 J/K
+q = 1.60217662080000e-19 C
+ 
+pi = 3.14159265358979e+00
+e = 2.71828182845905e+00
+zeta(3) = 1.20205690315959e+00
+a2 = 1.59362426004004e+00, root of 2(1-exp(-x))-x
+a3 = 2.82143937212208e+00, root of 3(1-exp(-x))-x
+a4 = 3.92069039487289e+00, root of 4(1-exp(-x))-x
+a5 = 4.96511423174429e+00, root of 5(1-exp(-x))-x
+ 
+sigmae = 5.67036700000000e-08 W/(m^2 K^4)
+sigmaq = 1.52045934929549e+15 q/(s m^2 K^3)
+ 
+c1em = 3.74177179007526e-16 with wavelenth in m
+c1qm = 1.88365156730885e+09 with wavelenth in m
+c2m = 1.43877735382772e-02 with wavelenth in m
+ 
+c1el = 3.74177179007526e+08 with wavelenth in $\mu$m
+c1ql = 1.88365156730885e+27 with wavelenth in $\mu$m
+c2l = 1.43877735382772e+04 with wavelenth in $\mu$m
+ 
+c1en = 3.74177179007526e-08 with wavenumber in cm$^{-1}$
+c1qn = 1.88365156730885e+15 with wavenumber in cm$^{-1}$
+c2n = 1.43877735382772e+00 with wavenumber in cm$^{-1}$
+ 
+c1ef = 4.63227660931923e-50 with frequency in Hz
+c1nf = 6.99098648422864e-17 with frequency in Hz
+c2f = 4.79924466221135e-11 with frequency in Hz
+ 
+wel = 2.89777291452621e+03 um.K  Wien for radiant and wavelength
+wql = 3.66970407994781e+03 um.K  Wien for photon rate and wavelength
+wen = 1.96099790187545e+00 cm-1/K  Wien for radiant and wavenumber
+wqn = 1.10762395293501e+00 cm-1/K  Wien for photon rate and wavenumber
+wef = 5.87892381136085e+10 Hz/K  Wien for radiant and frequency
+wqf = 3.32057307390064e+10 Hz/K  Wien for photon rate and frequency
+ 
+Array spectral (100,) & scalar temperature input, output shape is (100,)
+Array spectral (100,) &  list with len()=1 temperature input, output shape is (100,)
+Array spectral (100,) & list with len()=3 temperature input, output shape is (100, 3)
+Array spectral (100,) & array with shape=(5,) temperature input, output shape is (100, 5)
+Array spectral (100,) & array with shape=(1, 5) temperature input, output shape is (100, 5)
+Scalar spectral & scalar temperature input, output shape is ()
+Scalar spectral & list temperature with len()=1 input, output shape is ()
+Scalar spectral & list temperature with len()=3 input, output shape is (1, 3)
+Scalar spectral & array temperature with shape=(5,)  input, output shape is (1, 5)
+ 
+Temperature for calculations             1000.000000 [K]
+dTemperature for dM/dTcalculations       0.010000 [K]
+
+planckel WAVELENGTH DOMAIN, RADIANT EXITANCE
+                            function       equations    (% error)
+peak exitance             1.285824e+04   1.286650e+04   -0.0642   [W/(m^2.um)]
+peak exitance at          2.849860e+00   2.897900e+00   -1.6578   [um]
+radiant exitance (int)    5.670366e+04   5.670330e+04   +0.0006   [W/m^2]
+radiant exitance (int)    5.670367e+04   5.670330e+04   +0.0007   [W/m^2]
+radiant exitance (int)    5.670366e+04   5.670330e+04   +0.0006   [W/m^2]
+radiant exitance dM/dT    6.533532e+01   6.533634e+01   -0.0016   [W/(m^2.um.K)]
+
+planckql WAVELENGTH DOMAIN, PHOTON EXITANCE
+                            function       equations    (% error)
+peak exitance             2.100951e+23   2.101073e+23   -0.0058   [q/(s.m^2.um)]
+peak exitance at          3.649820e+00   3.669700e+00   -0.5417   [um]
+radiant exitance (int)    1.520394e+24   1.520400e+24   -0.0004   [q/(s.m^2)]
+radiant exitance (int)    1.520459e+24   1.520400e+24   +0.0039   [q/(s.m^2)]
+radiant exitance (int)    1.520394e+24   1.520400e+24   -0.0004   [W/m^2]
+radiant exitance dM/dT    8.445978e+20   8.446067e+20   -0.0010   [q/(s.m^2.um.K)]
+
+planckef FREQUENCY DOMAIN, RADIANT EXITANCE
+                            function       equations    (% error)
+peak exitance             5.956511e-10   5.956646e-10   -0.0023   [W/(m^2.Hz)]
+peak exitance at          5.905618e+13   5.878887e+13   +0.4547   [Hz]
+radiant exitance (int)    5.670364e+04   5.670330e+04   +0.0006   [W/m^2]
+radiant exitance (int)    5.670367e+04   5.670330e+04   +0.0007   [W/m^2]
+radiant exitance (int)    5.670366e+04   5.670330e+04   +0.0006   [W/m^2]
+radiant exitance dM/dT    1.793622e-12   1.793633e-12   -0.0006   [W/(m^2.Hz.K)]
+
+planckqf FREQUENCY DOMAIN, PHOTON EXITANCE
+                            function       equations    (% error)
+peak exitance             1.965646e+10   1.965658e+10   -0.0006   [q/(s.m^2.Hz)]
+peak exitance at          3.327531e+13   3.320552e+13   +0.2102   [Hz]
+radiant exitance (int)    1.520351e+24   1.520400e+24   -0.0032   [q/(s.m^2)]
+radiant exitance (int)    1.520459e+24   1.520400e+24   +0.0039   [q/(s.m^2)]
+radiant exitance (int)    1.520394e+24   1.520400e+24   -0.0004   [W/m^2]
+radiant exitance dM/dT    3.936183e+07   3.936191e+07   -0.0002   [q/(s.m^2.Hz.K)]
+
+plancken WAVENUMBER DOMAIN, RADIANT EXITANCE
+                            function       equations    (% error)
+peak exitance             1.785717e+01   1.785758e+01   -0.0023   [W/(m^2.cm-1)]
+peak exitance at          1.969902e+03   1.960986e+03   +0.4547   [cm-1]
+radiant exitance (int)    5.670364e+04   5.670330e+04   +0.0006   [W/m^2]
+radiant exitance (int)    5.670367e+04   5.670330e+04   +0.0007   [W/m^2]
+radiant exitance (int)    5.670366e+04   5.670330e+04   +0.0006   [W/m^2]
+radiant exitance dM/dT    5.377144e-02   5.377176e-02   -0.0006   [W/(m^2.cm-1.K)]
+
+planckqn WAVENUMBER DOMAIN, PHOTON EXITANCE
+                            function       equations    (% error)
+peak exitance             5.892858e+20   5.892639e+20   +0.0037   [q/(s.m^2.cm-1)]
+peak exitance at          1.109945e+03   1.107617e+03   +0.2102   [cm-1]
+radiant exitance (int)    1.520351e+24   1.520400e+24   -0.0032   [q/(s.m^2)]
+radiant exitance (int)    1.520459e+24   1.520400e+24   +0.0039   [q/(s.m^2)]
+radiant exitance (int)    1.520394e+24   1.520400e+24   -0.0004   [W/m^2]
+radiant exitance dM/dT    1.180038e+18   1.180040e+18   -0.0002   [q/(s.m^2.cm-1.K)]
+ 
+Test the functions by converting between different spectral domains.
+Input spectral vectors:
+[   0.1    1.    10.   100. ] micrometers
+[ 100000.   10000.    1000.     100.] wavenumber
+[  2.99792458e+15   2.99792458e+14   2.99792458e+13   2.99792458e+12] frequency
+all following eight statements should print (close to) unity vectors:
+exitance converted: wf against calculation
+[[  1.00000000e+00   1.72494851e+53   9.50720426e+55   1.97558523e+54]
+ [  5.79727449e-54   1.00000000e+00   5.51158727e+02   1.14530098e+01]
+ [  1.05183393e-56   1.81435937e-03   1.00000000e+00   2.07798757e-02]
+ [  5.06179124e-55   8.73132927e-02   4.81234833e+01   1.00000000e+00]]
+exitance converted: wf->fn against calculation
+[[  1.00000000e+00   1.72494851e+53   9.50720426e+55   1.97558523e+54]
+ [  5.79727449e-54   1.00000000e+00   5.51158727e+02   1.14530098e+01]
+ [  1.05183393e-56   1.81435937e-03   1.00000000e+00   2.07798757e-02]
+ [  5.06179124e-55   8.73132927e-02   4.81234833e+01   1.00000000e+00]]
+exitance converted: wf->fn->nw against original
+[[  1.00000000e+00   1.72494851e+51   9.50720426e+51   1.97558523e+48]
+ [  5.79727449e-52   1.00000000e+00   5.51158727e+00   1.14530098e-03]
+ [  1.05183393e-52   1.81435937e-01   1.00000000e+00   2.07798757e-04]
+ [  5.06179124e-49   8.73132927e+02   4.81234833e+03   1.00000000e+00]]
+spectral variable converted: wf->fn->nw against original
+[ 1.  1.  1.  1.]
+exitance converted: wf against calculation
+[[  1.00000000e+00   1.72494851e+53   9.50720426e+55   1.97558523e+54]
+ [  5.79727449e-54   1.00000000e+00   5.51158727e+02   1.14530098e+01]
+ [  1.05183393e-56   1.81435937e-03   1.00000000e+00   2.07798757e-02]
+ [  5.06179124e-55   8.73132927e-02   4.81234833e+01   1.00000000e+00]]
+exitance converted: wf->fn against calculation
+[[  1.00000000e+00   1.72494851e+53   9.50720426e+55   1.97558523e+54]
+ [  5.79727449e-54   1.00000000e+00   5.51158727e+02   1.14530098e+01]
+ [  1.05183393e-56   1.81435937e-03   1.00000000e+00   2.07798757e-02]
+ [  5.06179124e-55   8.73132927e-02   4.81234833e+01   1.00000000e+00]]
+exitance converted: wn->nf->fw against original
+[[  1.00000000e+00   1.72494851e+51   9.50720426e+51   1.97558523e+48]
+ [  5.79727449e-52   1.00000000e+00   5.51158727e+00   1.14530098e-03]
+ [  1.05183393e-52   1.81435937e-01   1.00000000e+00   2.07798757e-04]
+ [  5.06179124e-49   8.73132927e+02   4.81234833e+03   1.00000000e+00]]
+spectral variable converted: wn->nf->fw against original
+[ 1.  1.  1.  1.]
+ 
+Calculate the number of bits required to express the colour ratio
+between an MTV flare and a relatively cold aircraft fuselage.
+Mflare=17576.64 W/m2 
+Maircraft=0.7 W/m2
+Colour ratio: ratio=2.628e+04 minimum number of bits required=14.7
+
+module planck done!

@@ -1,0 +1,26 @@
+Bandgap = 0.233379
+Lambda_c= 5.313239
+
+Source temperature             = 2000 K
+Source emissivity              = 1.0 
+Source distance                = 0.1 m
+Source area                    = 3.3e-05 m2
+Source solid angle             = 0.003300 sr
+
+Background temperature         = 280.0 K
+Background emissivity          = 1.0 
+Background solid angle         = 3.141593 sr
+
+Detector current source        = 0.000041 A   0.000041 A
+Detector current background    = 0.000000 A   0.000000 A
+Detector current total         = 0.000042 A   0.000042 A
+
+I0               = 0.000000 [A] 
+ni               = 3327323549307275.500000 [m-3] 
+R0=              = 1.808536e+05 Ohm
+NBW=             = 1.000000e+02 Hz
+iNoiseTotal      = 4.253481e-12 A
+iNoise Johnson=  = 1.562978e-12 A
+iNoise shot      = 3.955906e-12 A
+
+Done!

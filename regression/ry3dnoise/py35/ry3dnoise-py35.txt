@@ -1,0 +1,7 @@
+
+(19, 100, 100) (frames, rows,cols) processed from data/sensornoise.raw - see results in sensornoise.txt
+
+
+(100, 64, 69) (frames, rows,cols) processed from data/sensornoise.raw - see results in PyradiSampleMWIR.txt
+
+ry3dnoise done!

@@ -1,0 +1,118 @@
+Test writing latex format arrays:
+Test writing eps file figure latex fragments:
+Test writing and reading numpy array to text file, with header:
+(7, 4)
+[[  1.    2.    3.    5. ]
+ [  1.3   2.6   3.9   6.5]
+ [  1.6   3.2   4.8   8. ]
+ [  1.9   3.8   5.7   9.5]
+ [  2.2   4.4   6.6  11. ]
+ [  2.5   5.    7.5  12.5]
+ [  2.8   5.6   8.4  14. ]]
+['Tomato', 'Lettuce', 'Yellow Prune', 'Dark Green Leaf', 'Blue Nitrile Glove', 'White Paper']
+(350, 6)
+(350, 1)
+
+Test CleanFilename function:
+aa bb%cc:dd/ee,ff.gg\hh[ii]jj
+aabbccddeeffgghhiijj
+aa bb%cc:dd/ee,ff.gg\hh[ii]jj
+aabb%cc:dd/ee,ff.gg\hh[ii]jj
+aa bb%cc:dd/ee,ff.gg\hh[ii]jj
+aa bb%cc:dd/ee,ff.gg\hh[ii]jj
+
+Test listFiles function - only python files in currect dir:
+['ry3dnoise.py', 'rychroma.py', 'rydetector.py', 'ryfiles.py', 'rylookup.py', 'rymodtran.py', 'rypflux.py', 'ryplanck.py', 'ryplot.py', 'ryplotspherical.py', 'ryprob.py', 'ryptw.py', 'rystare.py', 'ryutils.py', '_cleanClutter.py', '_docopyregression.py', '__init__.py']
+
+Test listFiles function - only python files in nested dirs:
+['ry3dnoise.py', 'rychroma.py', 'rydetector.py', 'ryfiles.py', 'rylookup.py', 'rymodtran.py', 'rypflux.py', 'ryplanck.py', 'ryplot.py', 'ryplotspherical.py', 'ryprob.py', 'ryptw.py', 'rystare.py', 'ryutils.py', '_cleanClutter.py', '_docopyregression.py', '__init__.py', 'data\\images\\plotSiemensStar.py', 'data\\images\\plotSiemensStarxxx.py', 'doc\\conf.py', 'examples\\exflamesensor.py', 'othercode\\contour_demo.py', 'othercode\\detector2.py', 'othercode\\detector4.py', 'othercode\\detector6.py', 'othercode\\flarecheck.py', 'othercode\\imageCompressEqualise.py', 'othercode\\pick_on_surface.py', 'othercode\\plotWindow.py', 'othercode\\quaternions.py', 'othercode\\radiancebins-extra.py', 'othercode\\rydetector.py', 'othercode\\rydetector3.py', 'othercode\\stargen.py', 'othercode\\stargenclean.py', 'othercode\\utility.py', 'othercode\\archive\\detector3.py', 'othercode\\archive\\detector3_2.py', 'test\\futuretest.py']
+
+4 frames of size 100 x 100 and data type uint32 read from binary file data/sample.ulong
+  saving image 0 file to rawIm0.png
+  saving image 1 file to rawIm1.png
+  saving image 2 file to rawIm2.png
+  saving image 3 file to rawIm3.png
+Test the glob version of listFiles: *.py
+  ry3dnoise.py
+  rychroma.py
+  rydetector.py
+  ryfiles.py
+  rylookup.py
+  rymodtran.py
+  rypflux.py
+  ryplanck.py
+  ryplot.py
+  ryplotspherical.py
+  ryprob.py
+  ryptw.py
+  rystare.py
+  ryutils.py
+  _cleanClutter.py
+  _docopyregression.py
+  __init__.py
+Test the glob version of listFiles with two patterns: *.py;*.pyc
+  ry3dnoise.py
+  ry3dnoise.pyc
+  rychroma.py
+  rychroma.pyc
+  rydetector.py
+  rydetector.pyc
+  ryfiles.py
+  ryfiles.pyc
+  rylookup.py
+  rylookup.pyc
+  rymodtran.py
+  rymodtran.pyc
+  rypflux.py
+  rypflux.pyc
+  ryplanck.py
+  ryplanck.pyc
+  ryplot.py
+  ryplot.pyc
+  ryplotspherical.py
+  ryprob.py
+  ryprob.pyc
+  ryptw.py
+  ryptw.pyc
+  rystare.py
+  rystare.pyc
+  ryutils.py
+  ryutils.pyc
+  _cleanClutter.py
+  _docopyregression.py
+  __init__.py
+  __init__.pyc
+Test the regex version of listFiles: ^[a-z]{2}p[a-z]*\.py[c]*
+  rypflux.py
+  rypflux.pyc
+  ryplanck.py
+  ryplanck.pyc
+  ryplot.py
+  ryplot.pyc
+  ryplotspherical.py
+  ryprob.py
+  ryprob.pyc
+  ryptw.py
+  ryptw.pyc
+Test the regex version of listFiles with two patterns: ^[a-z]{2}p[a-z]*\.py;^[a-z]{2}p[a-z]*\.pyc
+  rypflux.py
+  rypflux.pyc
+  ryplanck.py
+  ryplanck.pyc
+  ryplot.py
+  ryplot.pyc
+  ryplotspherical.py
+  ryprob.py
+  ryprob.pyc
+  ryptw.py
+  ryptw.pyc
+Test downloading a file from internet given a URL
+success
+Test unzipping a gzip file, then untar the file
+success
+Test untarring a tar file
+['ciexyz31_1.txt', 'fluorescent.txt', 'LowPressureSodiumLamp.txt', 'sampleReflectance.txt', 'samplesVis.txt']
+Files downloaded and untarred colourcoordinates.tgz!
+['ciexyz31_1.txt', 'fluorescent.txt', 'LowPressureSodiumLamp.txt', 'sampleReflectance.txt', 'samplesVis.txt']
+
+module ryfiles done!
